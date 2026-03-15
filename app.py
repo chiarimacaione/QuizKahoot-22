@@ -258,6 +258,8 @@ elif st.session_state.user == "":
 
 else:
     if st.session_state.step < len(df):
+        pregunta_actual = df.iloc[st.session_state.step]['pregunta']
+        
         st.markdown(f"""
             <div class="mac-window" style="margin-bottom: 15px;">
                 <div class="mac-topbar">
@@ -270,7 +272,15 @@ else:
                     <span style="color: #ff5f56;">PTS: {st.session_state.score}</span>
                 </div>
             </div>
-            <h2 class="pregunta-title">PREGUNTA {st.session_state.step + 1}</h2>
+            
+            <div style="text-align: center; margin-top: 16px;">
+                <div style="font-family: 'Righteous', sans-serif; font-size: 38px; color: #000; margin-bottom: -10px;">
+                    PREGUNTA #{st.session_state.step + 1}
+                </div>
+                <div style="font-family: 'Righteous', sans-serif; font-size: 32px; color: #000; line-height: 1.1; padding: 10px 0;">
+                    {pregunta_actual}
+                </div>
+            </div>
         """, unsafe_allow_html=True)
 
         if not st.session_state.answered:
