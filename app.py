@@ -324,7 +324,7 @@ else:
                 <div class="mac-content" style="flex-direction: column; text-align: center;">
                     <h1 style="font-family:'Righteous'; font-size:40px; margin:0;">FIN DEL EXAMEN</h1>
                     <p style="margin-top:10px;">Obtuviste:</p>
-                    <p style="font-size: 70px; font-family: 'Righteous'; color:{CYAN_A_D}; text-shadow: 4px 4px 0px #000; margin: 10px 0;">{st.session_state.score}</p>
+                    <p style="font-size: 70px; font-family: 'Righteous'; color:{CYAN_A_D}; text-shadow: 4px 4px 0px #000; margin: 10px 0;">{st.session_state.score} PUNTOS</p>
                     <p>Atenta al podio...</p>
                 </div>
             </div>
