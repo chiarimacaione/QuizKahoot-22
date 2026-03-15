@@ -80,6 +80,10 @@ st.markdown(f"""
         font-size: 32px;
         color: {NEGRO_PURO};
     }}
+    
+    div[data-testid="stHorizontalBlock"] {{
+        gap: 25px !important; /* Aumentamos el espacio entre botones */
+    }}
 
     /* TÍTULOS DE PREGUNTA */
     h2.pregunta-title {{
@@ -198,7 +202,17 @@ if 'answered' not in st.session_state: st.session_state.answered = False
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('preguntas.csv', sep=';', encoding='latin-1')
+    # Prueba primero con punto y coma, si falla intenta con coma
+    try:
+        data = pd.read_csv('preguntas.csv', sep=';', encoding='utf-8')
+        if 'pregunta' not in data.columns:
+            raise ValueError
+    except:
+        data = pd.read_csv('preguntas.csv', sep=',', encoding='utf-8')
+    
+    # Limpieza de nombres de columnas (quita espacios invisibles)
+    data.columns = data.columns.str.strip()
+    return data
 df = load_data()
 
 # --- PANEL ADMIN SECRETO (Barra Lateral) ---
@@ -277,7 +291,7 @@ else:
                 <div style="font-family: 'Righteous', sans-serif; font-size: 38px; color: #000; margin-bottom: -10px;">
                     PREGUNTA #{st.session_state.step + 1}
                 </div>
-                <div style="font-family: 'Righteous', sans-serif; font-size: 32px; color: #000; line-height: 1.1; padding: 10px 0;">
+                <div style="font-family: 'Righteous', sans-serif; font-size: 28px; color: #000; line-height: 1.1; padding: 10px 0;">
                     {pregunta_actual}
                 </div>
             </div>
