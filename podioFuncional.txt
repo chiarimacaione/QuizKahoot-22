@@ -1,0 +1,19 @@
+# --- MOSTRAR PODIO PARA PROYECTAR ---
+if st.session_state.get('view_podio_admin'):
+    st.markdown("---")
+    st.markdown("<h1 style='color: #ffcc00;'>🏆 RANKING EN TIEMPO REAL 🏆</h1>", unsafe_allow_html=True)
+    
+    # Leer resultados y mostrar el Top 10 con estilo
+    if os.path.exists(DB_FILE):
+        ranking_admin = pd.read_csv(DB_FILE).sort_values(by="Puntaje", ascending=False).head(10)
+        ranking_admin.index = range(1, len(ranking_admin) + 1)
+        
+        # Estilo de tabla disco para el proyector
+        st.table(ranking_admin)
+        
+    if st.button("Cerrar Podio"):
+        st.session_state.view_podio_admin = False
+        st.rerun()
+
+
+?admin=true
