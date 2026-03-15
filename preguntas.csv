@@ -1,23 +1,1 @@
-pregunta;opcion_a;opcion_b;opcion_c;opcion_d;correcta;img_pregunta;img_respuesta
-¿Qué es lo primero que hago cuando me despierto?;Ir a bañarme;Desayunar fuerte;Levantarme para bajar la cortina;Poner música;D;;
-¿Qué materia destruyó mi psiquis?;Cálculo Avanzado;Física II;Álgebra Lineal I;Sistemas Operativos;B;facultad.jpg;
-¿Cuál es el nombre de mi primera mascota?;Melek;Laika;Lando;Dobby;B;;
-¿Cuál es el nombre de mi amor de primaria?;Sebastián;Francisco;Matías;Ignacio;A;seba.jpg;
-¿Cómo se llama mi auto?;Blanquito;Fitito;Pupu;No tiene nombre;C;pupu.jpg;
-¿Cuál fue mi primer trabajo?;Moza;Alcanzapelota;Maestra;Pasantía;B;;
-De estas 4 frutas... ¿cuál es la que NO me gusta?;Banana;Mandarina;Uva;Frutilla;D;;
-"¿En cuántos países ""viví""?";2;1;3;5;C;;
-¿Qué hubiese estudiado si no elegía Ingeniería en Informática?;Diseño Gráfico;Abogacía;Contabilidad;Turismo;A;;
-Si tengo tiempo libre, lo más probable es que me encuentres...;Durmiendo;Leyendo;En el gimnasio;Fulvo;A;;dormir.jpg
-¿Cuál es mi trago favorito de la barra?;Daikiri;Mojito;Fernet;Aperol;C;fernet.jpg;
-¿A los cuántos años me bautizaron?;1 año;2 años;9 años;14 años;C;comunion.jpg;
-¿Cómo terminé de romperme los meniscos?;En danza;En fútbol;Corriendo por la calle;Jugando al Twister;D;meniscos.jpg;
-¿En qué parte del cuerpo tengo una cicatriz pegada con La Gotita?;Pie;Rodilla;Codo;Cara;D;;
-¿Cuál es mi apodo familiar (el que solo usan en casa)?;Char;Kiki;Memi;Chicha;C;;
-¿A qué edad empecé mi deporte favorito?;3 años;10 años;6 años;11 años;A;;danza_bebe.jpg
-¿A dónde fue mi último viaje?;Punta Cana;Montevideo;Madrid;Milán;B;;uruguay.jpg
-¿Cuál es el país que más ansío conocer en el mundo?;Alemania;Canadá;Singapur;Japón;C;;
-¿Qué idioma enseño?;Italiano;Inglés;Español;Francés;A;;
-¿Qué es lo que más me molesta como estudiante?;Escribir código;Ir a cursar;Preparar finales;Hacer trabajos en grupo;D;;
-"¿Cuál es mi ""imperio romano"" (ese tema en el que pienso constantemente)?";Mi futura casa;Mi ex;Cómo funciona el algoritmo de Spotify;El próximo país en el que voy a vivir;D;;viajes.jpg
-¿De qué estaba disfrazada en esta foto?;Rayo McQueen;Carta de Alicia en el País de las Maravillas;Mario Bros;Minnie Mouse;B;disfraz.jpg;carta_roja.jpg
+pregunta;opcion_a;opcion_b;opcion_c;opcion_d;correcta;img_pregunta;img_respuestaÀQuŽ es lo primero que hago cuando me despierto?;Ir a ba–arme;Desayunar fuerte;Levantarme para bajar la cortina;Poner mœsica;D;;ÀQuŽ materia destruy— mi psiquis?;C‡lculo Avanzado;F’sica II;çlgebra Lineal I;Sistemas Operativos;B;facultad.jpg;ÀCu‡l es el nombre de mi primer mascota?;Melek;Laika;Lando;Dobby;B;;ÀCu‡l es el nombre de mi amor de primaria?;Sebasti‡n;Francisco;Mat’as;Ignacio;A;seba.jpg;ÀC—mo se llama mi auto?;Blanquito;Fitito;Pupu;No tiene nombre;C;pupu.jpg;ÀCu‡l fue mi primer trabajo?;Moza;Alcanzapelota;Maestra;Pasant’a;B;;De estas 4 frutas... Àcu‡l es la que NO me gusta?;Banana;Mandarina;Uva;Frutilla;D;;ÀQuŽ me gusta coleccionar?;Velas;Flores secas;Tazas;Llaveros;C;;ÀQuŽ hubiese estudiado si no era Ingenier’a en Inform‡tica?;Dise–o Gr‡fico;Abogac’a;Contabilidad;Turismo;A;;Si tengo tiempo libre, lo m‡s probable es que me encuentres...;Durmiendo;Leyendo;En el gimnasio;Jugando al fœtbol;A;;dormir.jpgÀCu‡l es mi trago favorito en la barra?;Daikiri;Mojito;Fernet;Aperol;C;fernet.jpg;ÀA los cu‡ntos a–os me bautizaron?;1 a–o;2 a–os;9 a–os;14 a–os;C;comunion.jpg;ÀC—mo terminŽ de romperme los meniscos?;En danza;En fœtbol;Corriendo por la calle;Jugando al Twister;D;meniscos.jpg;ÀEn quŽ parte del cuerpo tengo una cicatriz pegada con La Gotita?;Pie;Rodilla;Codo;Cara;D;;ÀCu‡l es mi apodo familiar (el que solo usan en casa)?;Char;Kiki;Memi;Chicha;C;;ÀA quŽ edad empecŽ mi deporte favorito?;3 a–os;10 a–os;6 a–os;11 a–os;A;;danza_bebe.jpgÀA d—nde fue mi œltimo viaje?;Punta Cana;Montevideo;Madrid;Mil‡n;B;;uruguay.jpgÀCu‡l es el pa’s que m‡s ans’o conocer en el mundo?;Alemania;Canad‡;Singapur;Jap—n;C;;ÀCu‡l fue el trabajo que m‡s odiŽ en mi vida?;Moza;Alcanzapelota;Maestra;Pasant’a;A;;ÀQuŽ es lo que m‡s me estresa como estudiante?;Escribir c—digo;Que la gente piense que sŽ arreglar aires acondicionados;Preparar finales;Hacer trabajos en grupo;D;;"ÀCu‡l es mi ""imperio romano"" (ese tema en el que pienso constantemente)?";Mi futura casa;Mi ex;C—mo funciona el algoritmo de Spotify;El pr—ximo pa’s en el que voy a vivir;D;;viajes.jpgÀDe quŽ estaba disfrazada en esta foto?;Mimo;Carta de Alicia en el Pa’s de las Maravillas;Mickey Mouse;Minnie Mouse;B;disfraz.jpg;carta_roja.jpg
